@@ -1,0 +1,6 @@
+<view class="page__container">
+  <view class="image"></view>
+  <view class="header">COVID-19</view>
+  <view class="subheader">Real Time Data Tracker</view>
+  <button bindtap="navigateToData" hover-class="hover" class="btn">NAVIGATE TO DATA</button>
+</view>

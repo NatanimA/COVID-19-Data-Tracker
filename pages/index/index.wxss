@@ -1,0 +1,63 @@
+.page__container {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 5vw;
+  box-sizing: border-box;
+  position: relative;
+
+  /* Change this to change background color */
+  background: #4F4F4F;
+}
+
+.image {
+  height: 150px;
+  width: 150px;
+  margin-top: 15%;
+  
+  /* Change this URL to change icon */
+  background: url('https://www.iconpacks.net/icons/2/free-corona-virus-icon-3133-thumb.png');
+  
+  background-size: contain;
+}
+
+.header {
+  margin-top: 5%;
+  font-size: 48px;
+  font-weight: bold;
+
+  /* Change this to change font color */
+  color: #F2F2F2;
+}
+
+.subheader {
+  margin-top: 1%;
+  font-size: 20px;
+  
+  /* Change this to change font color */
+  color: #F2F2F2;
+}
+
+.btn {
+  width: 80% !important;
+  height: 50px !important;
+  position: absolute;
+  bottom: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: -5px 5px 10px rgba(0,0,0,0.5);
+  transition: all 1s linear;
+
+  /* Change this to change font color */
+  color: #4F4F4F;
+
+  /* Change this to change background color */
+  background: #F2F2F2;
+}
+
+.hover {
+  box-shadow: -1px 1px 10px rgba(0,0,0,0.5);
+}

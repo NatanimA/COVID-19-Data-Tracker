@@ -1,0 +1,61 @@
+{
+	"description": "Project configuration file, more information: https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html",
+	"packOptions": {
+		"ignore": [],
+		"include": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"preloadBackgroundData": false,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"autoAudits": false,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		},
+		"lazyloadPlaceholderEnable": false,
+		"uglifyFileName": false,
+		"enhance": true,
+		"useMultiFrameRuntime": true,
+		"packNpmManually": false,
+		"packNpmRelationList": [],
+		"minifyWXSS": true,
+		"useStaticServer": true,
+		"showES6CompileOption": false,
+		"disableUseStrict": false,
+		"useCompilerPlugins": false,
+		"minifyWXML": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.10.1",
+	"appid": "wx00362798f0f6d6d6",
+	"projectname": "COVID-19%20Data%20Tracker",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"miniprogram": {
+			"list": [
+				{
+					"name": "pages/data/data",
+					"pathName": "pages/data/data",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	},
+	"editorSetting": {
+		"tabIndent": "tab",
+		"tabSize": 4
+	}
+}

@@ -1,0 +1,34 @@
+<view class="page__container">
+  <view class="subheader">NATIONAL TOTALS</view>
+  <!-- confirmed cases -->
+  <view class="container">
+    <view class="name">CONFIRMED</view>
+    <view class="data">0</view>
+  </view>
+
+  <!-- cured cases -->
+  <view class="container">
+    <view class="name">CURED</view>
+    <view class="data">0</view>
+  </view>
+
+  <!-- deceased cases -->
+  <view class="container">
+    <view class="name">DECEASED</view>
+    <view class="data">0</view>
+  </view>
+
+  <!-- rate of change -->
+  <view class="container">
+    <view class="name">RATE OF CHANGE</view>
+    <view class="data">0</view>
+  </view>
+
+  <!-- updated on -->
+  <view class="container">
+    <view class="name">UPDATED ON</view>
+    <view class="data">0</view>
+  </view>
+
+  <button class="btn">FETCH DATA</button>
+</view>
