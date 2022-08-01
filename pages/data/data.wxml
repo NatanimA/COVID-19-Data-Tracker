@@ -3,32 +3,32 @@
   <!-- confirmed cases -->
   <view class="container">
     <view class="name">CONFIRMED</view>
-    <view class="data">0</view>
+    <view class="data">{{result.confirmedCount}}</view>
   </view>
 
   <!-- cured cases -->
   <view class="container">
     <view class="name">CURED</view>
-    <view class="data">0</view>
+    <view class="data">{{result.curedCount}}</view>
   </view>
 
   <!-- deceased cases -->
   <view class="container">
     <view class="name">DECEASED</view>
-    <view class="data">0</view>
+    <view class="data">{{result.deadCount}}</view>
   </view>
 
   <!-- rate of change -->
   <view class="container">
     <view class="name">RATE OF CHANGE</view>
-    <view class="data">0</view>
+    <view class="data">{{result.seriousIncr}}</view>
   </view>
 
   <!-- updated on -->
   <view class="container">
     <view class="name">UPDATED ON</view>
-    <view class="data">0</view>
+    <view class="data">{{result.updateTime}}</view>
   </view>
 
-  <button class="btn">FETCH DATA</button>
+  <button bindtap="fetchData" class="btn">FETCH DATA</button>
 </view>

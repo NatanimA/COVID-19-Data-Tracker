@@ -1,8 +1,12 @@
 Page({
 
-  navigateToData: function () {
+  navigateToData: function (e) {
+
+	
     
-    // insert code here
+    wx.navigateTo({
+	  url: '/pages/data/data',
+	})
 
   },
 

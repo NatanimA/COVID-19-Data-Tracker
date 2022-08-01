@@ -9,7 +9,7 @@
   position: relative;
 
   /* Change this to change background color */
-  background: #4F4F4F;
+  background: black;
 }
 
 .image {
